@@ -3,7 +3,7 @@ const offBulb = document.getElementById('offBulb');
 const onBulb = document.getElementById('onBulb');
 let container = document.querySelector('.container');
 let imgs = document.createElement('img');
-imgs.src = '/bulb_light.jpg';
+imgs.src = 'bulb_light.jpg';
 imgs.id = 'onBulb';
 imgs.className = 'active';
 
